@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "swc": {
+    "module": {
+      "type": "commonjs"
+    },
+    "minify": false,
+    "sourceMaps": true
+  }
+}

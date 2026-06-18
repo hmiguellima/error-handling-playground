@@ -1,0 +1,39 @@
+{
+  "name": "neverthrow-experiment",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A TypeScript project with SWC, ts-node, eslint, and neverthrow",
+  "main": "dist/index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "start": "ts-node src/index.ts",
+    "lint": "eslint .",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "neverthrow": "^8.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@ninoseki/eslint-plugin-neverthrow": "^0.2.0",
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.10.0",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.61.1",
+    "@typescript-eslint/parser": "^8.61.1",
+    "eslint": "^10.5.0",
+    "eslint-plugin-functional": "^10.0.0",
+    "eslint-plugin-total-functions": "^7.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.8.0",
+    "typescript-eslint": "^8.61.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@11.5.1"
+}
